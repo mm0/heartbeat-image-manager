@@ -19,7 +19,7 @@ $filesystem_configuration->addDestination($directory);
 /* Define S3 destination */
 $s3_configuration = new ImageManager\Configuration\S3();
 $s3_configuration->setRegion("us-west-1");
-$s3_configuration->setBucket("image-manager-test-bucket");
+$s3_configuration->setBucket("admin-web-image-posts");
 
 Log::setLogLevel("DEBUG");
 /* Define Valid File Types */
