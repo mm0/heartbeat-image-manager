@@ -1,0 +1,14 @@
+{
+    "name": "mm0/s3-image-manager",
+    "minimum-stability": "dev",
+    "require": {
+        "mm0/image-manager": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matt Margolin",
+            "email": "matt.margolin@gmail.com"
+        }
+    ]
+}
